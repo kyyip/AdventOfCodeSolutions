@@ -152,12 +152,11 @@ count = 0
 for row in image3:
     count += row.count('#')
 print(count)
-focusboi = image
-
 
 
 #Part 2, same thing but 50 times
 #This can be a lot more optimized if you don't unnecessarily expand the border each iteration like I am, but it still works given a couple seconds
+focusboi = image
 for i in range(50):
     pixel = '.'
     if i%2:
